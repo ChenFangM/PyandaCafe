@@ -92,7 +92,7 @@ df.apply(lambda x: <val>) appies a user defined function to the data
 s.value_counts() counts values in histogram style
 
 String methods
-s.str.lower() maks all strings lowercase
+s.str.lower() makes all strings lowercase
 
 pd.concat(<array of pieces>) to concatenate pandas objects
 pd.merge(<obj1>, <obj2>, on=<key>) to SQL style join types along specific columns
