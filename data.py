@@ -7,7 +7,8 @@ SERIES
 pd.Series()
 
 Params:
-Created by passing a list of values, refered to in the series by a default integer index
+Created by passing a list of values, refered to in the series 
+by a default integer index
 
 Optional - Change data type: dtype="<dtype>"
 Optional - Change name: name="<name>"
@@ -15,8 +16,10 @@ Optional - Change name: name="<name>"
 """
 
 s = pd.Series([3,1,4,1,5], dtype="int32")
-
 print(s)
+
+
+
 print("\n")
 
 
@@ -39,15 +42,17 @@ df = pd.DataFrame(
 	{
 		"Name": [
 			"Tieu, Brianna",
-			"Kwok, Jeremy",
-			"Li, Mark",
-			"Kang, Brian",
+			"Mykolyk, Topher",
+			"Hsia, Talia",
+			"Park, Gitae",
+      "Yuen, Jasmine"
 		],
-		"Age": [17,17,18,17]
+		"Age": [2,90,17,17,18]
 	}
 )
 
 print(df)
+
 print("\n")
 
 df2 = pd.DataFrame(
